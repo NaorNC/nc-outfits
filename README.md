@@ -4,7 +4,7 @@
 <li>The code was built for Old QBCore, you can of course change it to new if you want. (If you need help feel free to ask)</li>
 <li>Make sure you change in config.lua to your Core. <code>Config.TriggerPrefix = "FrameWork"</code> -- Change "FrameWork".</li>
 <li>All player outfits data will be saved to the player in a database.json file. for example - <code>{"OVZ61343":[]}</code></li>
-<li>You will need to change the menu export in client.lua -> line 180. <code>exports["nc-menu"]:openMenu(menu)</code> - this is important. Without the above menu you will not be able to see which outfits you have saved.</li>
+<li>You will need to change the menu export in client.lua -> line 180. <code>exports["nc-menu"]:openMenu(menu)</code> - this is important. Without the above menu you will not be able to see which outfits you have saved. [You can use qb-menu of - https://github.com/qbcore-framework/qb-menu]</li>
 <li>To add more places where you can use outfits you can see at client.lua -> line 14. <code>local Locations = {</code></li>
 <li>If you have any further questions, you can add me to Discord.</li>
 </ul>
